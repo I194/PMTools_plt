@@ -3,6 +3,8 @@ Plotly version of PMTools
 
 **Alpha** версия программы PMTools. 
 
+Курсовую работу, причиной которой создание PMTools alpha, вы можете скачать из этого репозитория (https://clck.ru/ND5gs).
+
 # Установка PMTools
 Сейчас PMTools доступна только для Windows. 
 
