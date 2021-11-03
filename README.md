@@ -21,6 +21,9 @@ Plotly version of [PMTools](https://github.com/I194/PMTools)
 
 :exclamation: Без установки **gtk3** экспорт графиков из PMTools не будет работать корректно. Связано это в первую очередь с тем, что по заказу требовалось обязательное наличие оффлайн экспорта, которое, однако, у Plotly было реализовано крайне плохо на момент разработки и потому использовалась Orca. 
 
+# Тестовые данные
+Протестировать PMTools вы можете данными из следующих файлов: [006.PMD](https://github.com/I194/PMTools_plt/blob/master/006.PMD) и [15-af.pmd](https://github.com/I194/PMTools_plt/blob/master/15-af.pmd). 
+
 ***
 # История и планы 
 
