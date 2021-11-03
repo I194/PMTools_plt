@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+/* BTC reforged */
+.dropdown-menu {
+  min-width: 100%;
+  text-align: center;
+  font-size: 14px;!important
+}
+
+$primary: #119dff;
+
+.navbar-nav > li {
+  font-size: 20px;
+}
+
+.form-control:not([size]):not([multiple]) {
+
+    font-size: 14px;!important
+}
+
+.custom-select:not([size]):not([multiple]) {
+    height: 30px!important;
+    font-size: 14px;!important
+}
+
+.tooltip {
+    font-size: 13px;
+}
+
+h6{
+  font-size: 12px;
+}
+
+.caret-off::before {
+    display: none;
+}
+.caret-off::after {
+    display: none;
+}
+
+/* grid */
+
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: #F3F4F9;
+  font-family: 'Roboto';
+  align-items: center;
+}
+
+.page{
+  width: 95%;
+  margin: auto;
+}
+
+.upload-container{
+  height: 40px;
+  line-height: 40px;
+  border-width: 1px;
+  border-style: dashed;
+  border-radius: 12px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.bg-white{
+  background-color: white;
+  padding: 6px 8px;
+  border: 1px solid #C8D4E3;
+  border-radius: 12px;
+}
+
+.card{
+  padding-top: 1rem;
+  padding-bottom: 1 rem;
+}
+
+.margin__rows{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.padding-top-bot{
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.padding-center{
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.centering{
+  align-items: center;
+  vertical-align: middle;
+  margin: 0 auto;
+}
+
+/* logo */
+
+.pm-msu-banner {
+  background: #F3F4F9;
+  color: white;
+  padding: 12px;
+  padding-left: 24px;
+}
+
+
+/* tabs, but some settings in the templates*/
+
+.tabs-container {
+  border: 1px solid #C8D4E3;
+}
+
+.radio-tab{
+  border: 1px !important;
+  background: white;
+  padding: 6px !important;
+  font-family: 'Roboto';
+  font-size: 1rem;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.radio-tab-collapse{
+  border: 1px !important;
+  background: white;
+  padding: 6px !important;
+  font-family: 'Roboto';
+  font-size: 15px;!important
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.tab--selected{
+  border: 1px solid!important;
+  background-color: rgba(17, 157, 255, .50)!important;
+  color: white;
+}
+
+/* buttons */
+
+.submit__button {
+  background-color: white;
+  color: #0066CC;
+  border: 1.5px solid #0066CC;
+  height: 50px;
+  width: 200px;
+  align-items: center;
+  align-text: center;
+  margin: 0 auto;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.choose-button {
+  border: 1.5px solid #119dff;
+  align-items: center;
+  align-text: center;
+}
+
+/* toggle switch*/
+
+.toggle-switch{
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+
+/* details or spoilers */
+
+.pretty-spoiler{
+  align-items: center;
+  text-align: center;
+  font-weight: 600;
+}
+
+.pretty-spoiler-big{
+  align-items: center;
+  text-align: center;
+  font-weight: 500;
+  font-size: 26px;
+}
+
+.pretty-spoiler summary{
+  cursor: pointer;
+  outline: none;
+}
+
+.pretty-spoiler-big summary{
+  cursor: pointer;
+  outline: none;
+}
+
+.pretty-spoiler summary::-webkit-details-marker {
+  display: none;
+}
+
+.pretty-spoiler-big summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Markdown */
+
+.pretty-markdown-left{
+  font-weight: 500;
+  font-size: 15px;
+  text-align: left;
+}
+
+/* Dropdown */
+
+.pretty-dropdown{
+  font-weight: 500;
+  font-size: 15px;
+  text-align: left;
+  align-items: center;
+}
+
+/* numeric input */
+
+.pretty-numeric-input{
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  align-items: center;
+}
+
+/* table */
+
+.pretty-table{
+  font-weight: 500;
+  font-size: 15px;
+  text-align: center;
+}
+
+/* abbr */
+
+.pretty-abbr, .pretty-abbr[title] {
+  cursor:help;
+  text-decoration:none;
+  border-radius:100px;
+}
+
+/* experimental abbr */
+/*
+.pretty-abbr[title]:hover:after {
+  content: attr(title);
+  white-space: nowrap;
+  padding:2px 4px 0;
+  border:1px solid #119DFF;
+  border-radius:6px;
+  background: white;
+  font-size: 12px;
+}
+*/
